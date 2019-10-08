@@ -1,14 +1,16 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Layout from './components/Layout/layout'
-import Burger from './components/Burgerbuilder/burgerbuilder';
+import Layout from './hoc/Layout/Layout';
+import Burgerbuilder from './containers/Burgerbuilder/Burgerbuilder';
+
 
 function App() {
   return (
     <div className="App"> 
-      <Layout />
-      <Burger />
+    <Layout />
+    <Burgerbuilder />
+     this is app.justify
     </div>
   );
 }
